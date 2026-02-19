@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "5e7291c68ef16176",
+    "type": "split",
+    "children": [
+      {
+        "id": "c740442fb5141862",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "953e234b1762ea70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data processing/Apache Kafka/Apache Kafka index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apache Kafka index"
+            }
+          },
+          {
+            "id": "91d77a38a1396fd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compute/Compute index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Compute index"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "95c48e32f361c1fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "090d2aa42650a5e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9902b979257acc17",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9039dc280fde920e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bbac92e592f49429",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 380
+  },
+  "right": {
+    "id": "93941b41ffd53ce4",
+    "type": "split",
+    "children": [
+      {
+        "id": "00188377fa6899da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "288de8b2613bff1c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "13fe80158c5761a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GCP/GCP DevOps/GCP compute services/Cloud Run Functions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Cloud Run Functions"
+            }
+          },
+          {
+            "id": "4575dee6ab9e10f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9e79e2d258728d57",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Compute/Compute index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Compute index"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true
+    }
+  },
+  "active": "91d77a38a1396fd4",
+  "lastOpenFiles": [
+    "Compute/Pasted image 20260125182437.png",
+    "Compute/Compute index.md",
+    "IAM",
+    "Compute",
+    "Images/Pasted image 20260125165759.png",
+    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kakfa Python producer config.md",
+    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kafka Python send data.md",
+    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kafka Python callback functions.md",
+    "Data processing/Apache Kafka/Apache Kafka index.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark read data.md",
+    "Data architecture/Databricks/Databricks index.md",
+    "Data architecture/Databricks/Databricks lakehouse federation.md",
+    "Data architecture/Databricks/Databricks magic commands and utilities.md",
+    "Data architecture/Databricks/Databricks unity external locations.md",
+    "Data architecture/Databricks/Databricks unity architecture.md",
+    "Data architecture/Databricks/Databrikcs unity volumes.md",
+    "Data architecture/Databricks/Databrikcs unity schemas.md",
+    "Data architecture/Databricks/Databricks unity catalogs.md",
+    "Data architecture/Databricks/Databricks Spark SQL metadata.md",
+    "Data architecture/Databricks/Databricks Spark SQL views.md",
+    "Data architecture/Databricks/Databrikcs Spark SQL tables.md",
+    "Data architecture/Databricks/Databricks python read data.md",
+    "Data architecture/Databricks/Databricks write tables.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark dataframes.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark actions.md",
+    "Data processing/Apache Spark/Pyspark/Psypark join.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark group by.md",
+    "Data architecture/Databricks/Databricks Spark SQL higher order functions.md",
+    "Data processing/Apache Kafka/Apache Kafka SDK",
+    "Images/Pasted image 20260118201238.png",
+    "Images/Pasted image 20260118181927.png",
+    "Images/Pasted image 20260117140815.png",
+    "Images/Pasted image 20260117142755.png",
+    "Images/Pasted image 20260117135330.png",
+    "Images/Pasted image 20260117134435.png",
+    "Images/Pasted image 20260117133745.png",
+    "Excalidraw/Pasted Image 20260117131538_254.png",
+    "Images/Pasted image 20260113132602.png",
+    "Data architecture/Databricks",
+    "Data storage/HDFS",
+    "Data storage",
+    "Data processing/Apache Spark/Pyspark",
+    "Data processing/Apache Spark",
+    "Data processing/Apache Beam",
+    "Data terms"
+  ]
+}
