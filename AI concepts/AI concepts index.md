@@ -1,3 +1,3 @@
 Index:
-- [[AI agent]]w
+- [[AI agent]]
 - [[Prompt engineering vs context engineering]]

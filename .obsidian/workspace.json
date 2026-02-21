@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "45c8d1e81beb818a",
+        "id": "3e54ae775ddf7e02",
         "type": "tabs",
         "children": [
           {
-            "id": "115c157fd18be4b6",
+            "id": "8a18f38246e8e463",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,8 +162,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "115c157fd18be4b6",
+  "active": "8a18f38246e8e463",
   "lastOpenFiles": [
+    "AI frameworks/Google ADK/Google ADK index.md",
+    "AI frameworks/Google ADK/Google ADK agent types.md",
+    "AI frameworks/Google ADK/Google ADK tools.md",
+    "AI frameworks/Google ADK/Google ADK agent setup.md",
+    "AI frameworks/Google ADK/Google ADK callbacks.md",
+    "Images/Pasted image 20260221103430.png",
     "AI concepts/AI concepts index.md",
     "AI concepts/Prompt engineering vs context engineering.md",
     "AI concepts/AI agent.md",
@@ -171,18 +177,14 @@
     "Excalidraw/Drawing 2026-02-20 19.58.38.excalidraw.md",
     "Images/Pasted image 20260220200723.png",
     "Images/Pasted image 20260220200653.png",
-    "AI frameworks/Google ADK/Google ADK index.md",
     "AI frameworks/Google ADK/Google ADK deployments.md",
     "AI concepts",
     "Images/Pasted image 20260220195537.png",
     "AI frameworks/AI frameworks index.md",
-    "AI frameworks/Google ADK/Google ADK agent types.md",
     "Images/Pasted image 20260220065652.png",
     "Images/Pasted image 20260220065513.png",
     "Images/Pasted image 20260220065315.png",
     "Images/Pasted image 20260220065031.png",
-    "AI frameworks/Google ADK/Google ADK agent setup.md",
-    "AI frameworks/Google ADK/Google ADK tools.md",
     "Excalidraw/Drawing 2026-02-19 16.15.17.excalidraw.md",
     "Excalidraw",
     "AI frameworks/Google ADK/Google ADK introduction.md",
@@ -190,7 +192,6 @@
     "Images/Pasted image 20260219143505.png",
     "AI frameworks/Google ADK",
     "AI frameworks",
-    "Compute/Pasted image 20260125182437.png",
     "Compute/Compute index.md",
     "IAM",
     "Compute",
@@ -205,8 +206,6 @@
     "Data architecture/Databricks/Databricks unity external locations.md",
     "Data architecture/Databricks/Databricks unity architecture.md",
     "Data architecture/Databricks/Databrikcs unity volumes.md",
-    "Data architecture/Databricks/Databrikcs unity schemas.md",
-    "Data architecture/Databricks/Databricks unity catalogs.md",
     "Data processing/Apache Kafka/Apache Kafka SDK",
     "Data architecture/Databricks",
     "Data storage/HDFS"
