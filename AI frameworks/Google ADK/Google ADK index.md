@@ -8,3 +8,4 @@ Index:
 - [[Google ADK agent types]]
 - [[Google ADK deployments]]
 - [[Google ADK callbacks]]
+- [[Google ADK MCP]]

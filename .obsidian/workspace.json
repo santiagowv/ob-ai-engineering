@@ -11,13 +11,32 @@
             "id": "8a18f38246e8e463",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AI frameworks/Google ADK/Google ADK index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Google ADK index"
+            }
+          },
+          {
+            "id": "4f16fca851214039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI frameworks/Google ADK/Google ADK MCP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Google ADK MCP"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "AI frameworks/Google ADK/Google ADK MCP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Google ADK MCP"
             }
           }
         ],
@@ -162,8 +182,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8a18f38246e8e463",
+  "active": "4f16fca851214039",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-02-21 18.25.59.excalidraw.md",
+    "AI frameworks/Google ADK/Google ADK MCP.md",
+    "Images/Pasted image 20260221182526.png",
     "AI frameworks/Google ADK/Google ADK index.md",
     "AI frameworks/Google ADK/Google ADK agent types.md",
     "AI frameworks/Google ADK/Google ADK tools.md",
@@ -189,7 +212,6 @@
     "Excalidraw",
     "AI frameworks/Google ADK/Google ADK introduction.md",
     "Images",
-    "Images/Pasted image 20260219143505.png",
     "AI frameworks/Google ADK",
     "AI frameworks",
     "Compute/Compute index.md",
@@ -205,7 +227,6 @@
     "Data architecture/Databricks/Databricks magic commands and utilities.md",
     "Data architecture/Databricks/Databricks unity external locations.md",
     "Data architecture/Databricks/Databricks unity architecture.md",
-    "Data architecture/Databricks/Databrikcs unity volumes.md",
     "Data processing/Apache Kafka/Apache Kafka SDK",
     "Data architecture/Databricks",
     "Data storage/HDFS"
