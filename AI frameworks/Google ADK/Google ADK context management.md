@@ -3,6 +3,7 @@ It's <span style="color:rgb(216, 203, 251)">how an agent remembers, stores, and 
 # Session (short term memory)
 <span style="color:rgb(216, 203, 251)">Tracks content for a single conversation</span> between a user and an agent.
 - Ensures the agent <span style="color:rgb(216, 203, 251)">remembers previous interactions</span>, maintaining continuity.
+- By default <span style="color:rgb(216, 203, 251)">agents running locally will use persistent sessions</span> with a SQLite database.
 
 | Service                | Storage/Persistance         | Best use case       |
 | ---------------------- | --------------------------- | ------------------- |
