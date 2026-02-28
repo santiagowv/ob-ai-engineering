@@ -1,6 +1,6 @@
 Powerful mechanism to <span style="color:rgb(216, 203, 251)">hook into an agent's execution process</span>. 
 - Callbacks are special functions that let us o<span style="color:rgb(216, 203, 251)">bserve, customize, or control</span> how the agent behaves without changing the ADK code.
-![[Pasted image 20260221103430.png|550]]
+![[Pasted image 20260221103430.png|594]]
 # Why they are important
 - They act like <span style="color:rgb(216, 203, 251)">checkpoints during the agent's workflow</span>.
 - <span style="color:rgb(216, 203, 251)">Monitor what's happening</span> behind the scenes.

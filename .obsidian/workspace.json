@@ -1,24 +1,36 @@
 {
   "main": {
-    "id": "5e7291c68ef16176",
+    "id": "ebb7d76a8b05c583",
     "type": "split",
     "children": [
       {
-        "id": "80eaffe138564e5f",
+        "id": "40cc7cf38bb1150b",
         "type": "tabs",
         "children": [
           {
-            "id": "e91a1de7a0f64b8a",
+            "id": "82a3cf43e3a678ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI concepts/Traditional AI vs generative AI.md",
+                "file": "AI frameworks/Google ADK/Google ADK context management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Traditional AI vs generative AI"
+              "title": "Google ADK context management"
+            }
+          },
+          {
+            "id": "6138bbc21c67da9d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-22 09.26.45.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-22 09.26.45.excalidraw"
             }
           }
         ]
@@ -27,15 +39,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "95c48e32f361c1fa",
+    "id": "0af571fd92f10ead",
     "type": "split",
     "children": [
       {
-        "id": "090d2aa42650a5e7",
+        "id": "739f626d9bb9198e",
         "type": "tabs",
         "children": [
           {
-            "id": "9902b979257acc17",
+            "id": "b37a1a73b3ff227a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +60,7 @@
             }
           },
           {
-            "id": "9039dc280fde920e",
+            "id": "f4a954089ab53cdf",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +77,7 @@
             }
           },
           {
-            "id": "bbac92e592f49429",
+            "id": "ce36bde80cec6edf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,25 +90,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "93941b41ffd53ce4",
+    "id": "103149ec43638129",
     "type": "split",
     "children": [
       {
-        "id": "00188377fa6899da",
+        "id": "08cfd66b01b72d79",
         "type": "tabs",
         "children": [
           {
-            "id": "288de8b2613bff1c",
+            "id": "aab2a8aada5f56f1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
-                "collapseAll": true,
+                "file": "AI frameworks/Google ADK/Google ADK context management.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -105,139 +116,80 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Google ADK context management"
             }
           },
           {
-            "id": "13fe80158c5761a1",
+            "id": "1ee1bde186eaea38",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GCP/GCP DevOps/GCP compute services/Cloud Run Functions.md",
+                "file": "AI frameworks/Google ADK/Google ADK context management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Cloud Run Functions"
+              "title": "Outgoing links from Google ADK context management"
             }
           },
           {
-            "id": "4575dee6ab9e10f6",
+            "id": "42ba9926a867067f",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "9e79e2d258728d57",
+            "id": "bf9c958193eee989",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI concepts/Traditional AI vs generative AI.md",
+                "file": "AI frameworks/Google ADK/Google ADK context management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Traditional AI vs generative AI"
+              "title": "Outline of Google ADK context management"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
-      "daily-notes:Open today's daily note": true,
-      "templates:Insert template": true,
-      "command-palette:Open command palette": true,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-<<<<<<< HEAD
-  "active": "e91a1de7a0f64b8a",
+  "active": "82a3cf43e3a678ec",
   "lastOpenFiles": [
-    "AI frameworks/Google ADK/Google ADK index.md",
-    "AI frameworks/Google ADK/Google ADK context management.md",
     "Excalidraw/Drawing 2026-02-22 09.26.45.excalidraw.md",
-    "AI frameworks/Google ADK/Google ADK callbacks.md",
-    "AI frameworks/Google ADK/Google ADK agent types.md",
-    "AI frameworks/Google ADK/Google ADK deployments.md",
-    "AI frameworks/Google ADK/Pasted image 20260222085905.png",
-    "AI frameworks/Google ADK/Google ADK MCP.md",
-    "Images/Pasted image 20260222061428.png",
-    "Excalidraw/Drawing 2026-02-21 18.25.59.excalidraw.md",
-    "Images/Pasted image 20260221182526.png",
-    "AI frameworks/Google ADK/Google ADK tools.md",
-    "AI frameworks/Google ADK/Google ADK agent setup.md",
-=======
-  "active": "6c3539a56eba6b7e",
-  "lastOpenFiles": [
-    "Images/Pasted image 20260223151734.png",
-    "AI concepts/Traditional AI vs generative AI.md",
-    "AI concepts/AI concepts index.md",
-    "AI frameworks/Google ADK/Google ADK MCP.md",
-    "AI frameworks/Google ADK/Google ADK deployments.md",
-    "AI frameworks/Google ADK/Google ADK index.md",
-    "AI frameworks/Google ADK/Google ADK agent types.md",
     "AI frameworks/Google ADK/Google ADK context management.md",
-    "AI frameworks/Google ADK/Google ADK callbacks.md",
+    "AI frameworks/Google ADK/Google ADK index.md",
     "AI frameworks/Google ADK/Google ADK tools.md",
-    "AI frameworks/Google ADK/Google ADK agent setup.md",
-    "AI frameworks/Google ADK/Google ADK introduction.md",
-    "Excalidraw/Drawing 2026-02-19 16.15.17.excalidraw.md",
-    "Images/Pasted image 20260222061428.png",
-    "Images/Pasted image 20260221182526.png",
->>>>>>> 10560838b4a6c00fc5a077dac1ebf3d06119b1e5
-    "Images/Pasted image 20260221103430.png",
-    "Images/Pasted image 20260220200957.png",
-    "Images/Pasted image 20260220200723.png",
-    "Images/Pasted image 20260220200653.png",
-<<<<<<< HEAD
-    "AI concepts",
-=======
->>>>>>> 10560838b4a6c00fc5a077dac1ebf3d06119b1e5
-    "Images/Pasted image 20260220195537.png",
-    "Images/Pasted image 20260220065652.png",
-    "Images/Pasted image 20260220065513.png",
-    "Images/Pasted image 20260220065315.png",
-    "Excalidraw/Drawing 2026-02-22 09.26.45.excalidraw.md",
-    "Excalidraw/Drawing 2026-02-21 18.25.59.excalidraw.md",
-    "Excalidraw/Drawing 2026-02-20 19.58.38.excalidraw.md",
-    "Excalidraw",
-    "AI concepts/Prompt engineering vs context engineering.md",
-    "AI concepts/AI agent.md",
-    "AI concepts",
-    "AI frameworks/AI frameworks index.md",
-    "Images",
-    "AI frameworks/Google ADK",
-    "AI frameworks",
-    "Compute/Compute index.md",
-    "IAM",
-    "Compute",
-    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kakfa Python producer config.md",
-    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kafka Python send data.md",
-    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kafka Python callback functions.md",
-    "Data processing/Apache Kafka/Apache Kafka index.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark read data.md",
-    "Data architecture/Databricks/Databricks index.md",
-    "Data processing/Apache Kafka/Apache Kafka SDK",
-    "Data architecture/Databricks",
-    "Data storage/HDFS"
+    "AI frameworks/Google ADK/Google ADK callbacks.md",
+    "Untitled.base",
+    "Untitled.md",
+    "AI frameworks/Google ADK/Google ADK agent types.md",
+    "Images/Pasted image 20260227191405.png"
   ]
 }

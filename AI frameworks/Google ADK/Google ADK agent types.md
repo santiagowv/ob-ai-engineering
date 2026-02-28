@@ -1,5 +1,16 @@
 ![[Pasted image 20260220065031.png]]
 # Workflow agents
+## Single agent
+**Pros:**
+- <span style="color:rgb(216, 203, 251)">Simple</span> to implement.
+- Easier to <span style="color:rgb(216, 203, 251)">debug</span>.
+- Low <span style="color:rgb(216, 203, 251)">latency</span>.
+**Cons:**
+- <span style="color:rgb(216, 203, 251)">Large system prompt</span> can become unwieldy.
+- <span style="color:rgb(216, 203, 251)">Harder to re-use</span> individual components.
+- Single point of <span style="color:rgb(216, 203, 251)">failure</span>.
+![[Pasted image 20260227191405.png|600]]
+
 ## Sequential agents
 Each agent uses the <span style="color:rgb(216, 203, 251)">input data provided by the prior agent</span>.
 ![[Pasted image 20260220065315.png|650]]
