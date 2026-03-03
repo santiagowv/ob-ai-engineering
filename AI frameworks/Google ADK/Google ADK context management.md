@@ -21,13 +21,38 @@ Persistent storage that the agent can save and <span style="color:rgb(216, 203, 
 | **Persistence**       | None (data is lost on restart)                                                                                | Yes (Manged by Vertex AI)                                                                                                                                    |
 | **Primary Use Case**  | <span style="color:rgb(216, 203, 251)">Prototyping</span>, local development, and simple testing              | Building <span style="color:rgb(216, 203, 251)">meaningful, evolving memories</span> from user conversations                                                 |
 | **Memory Extraction** | Stores <span style="color:rgb(216, 203, 251)">full conversation</span>                                        | <span style="color:rgb(216, 203, 251)">Extracts meaningful information from conversations</span> and consolidates it with existing memories (powered by LLM) |
-| **Search Capability** | Basic <span style="color:rgb(216, 203, 251)">keyword matchin</span>                                           | Advanced <span style="color:rgb(216, 203, 251)">semantic search</span>                                                                                       |
+| **Search Capability** | Basic <span style="color:rgb(216, 203, 251)">keyword matching</span>                                          | Advanced <span style="color:rgb(216, 203, 251)">semantic search</span>                                                                                       |
 | **Setup Complexity**  | None. It's <span style="color:rgb(216, 203, 251)">the default</span>                                          | Low. Requires an <span style="color:rgb(216, 203, 251)">Agent Engine instance in Vertex AI</span>                                                            |
 | **Dependencies**      | None                                                                                                          | Google Cloud Project, Vertex AI API                                                                                                                          |
 | **When to use it**    | Search across multiple sessions' chat histories for <span style="color:rgb(216, 203, 251)">prototyping</span> | Remember and <span style="color:rgb(216, 203, 251)">learn from past interactions</span>                                                                      |
 ### Tools for retrieving memories
 - `PreloadMemory`: Always <span style="color:rgb(216, 203, 251)">retrieve memory at the beginning of each turn</span> (similar to a callback).
 - `LoadMemory`: <span style="color:rgb(216, 203, 251)">Retrieve memory when the agent decides</span> it would be helpful.
+### Implement memories
+`inMemoryMemoryService` <span style="color:rgb(216, 203, 251)">only saves memories while the app is executing</span>.
+1. Create a `preload_memory_tool` that <span style="color:rgb(216, 203, 251)">retrieves the agent's memory to provide a response</span>.
+```python
+from google.adk.tools import preload_memory_tool
+
+preload_memory_tool = preload_memory_tool.PreloadMemoryTool()
+```
+2. Create an after agent <span style="color:rgb(216, 203, 251)">callback to save the session to memory</span>.
+```python
+async def auto_save_session_to_memory_callback(callback_context):
+    await callback_context._invocation_context.memory_service.add_session_to_memory(callback_context._invocation_context.session)
+    print("Session saved to memory.")
+```
+3. Create the agent.
+```python
+root_agent = Agent(
+    model="gemini-2.5-flash",
+    name="root_agent",
+    description="A helpful assistant for user questions.",
+    instruction="Answer user questions to the best of your knowledge.",
+    tools=[preload_memory_tool],
+    after_agent_callback=auto_save_session_to_memory_callback
+)
+```
 # State
 In each session (conversation thread), the <span style="color:rgb(216, 203, 251)">state works like the agent's personal notepad</span> for that specific chat.
 - `session.events` keeps the <span style="color:rgb(216, 203, 251)">full history of what happened</span>.

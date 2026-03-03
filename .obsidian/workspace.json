@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "Google ADK context management"
             }
-          },
-          {
-            "id": "6138bbc21c67da9d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-22 09.26.45.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-22 09.26.45.excalidraw"
-            }
           }
         ]
       }
@@ -163,7 +151,8 @@
               "title": "Outline of Google ADK context management"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,11 +171,11 @@
   },
   "active": "82a3cf43e3a678ec",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-02-22 09.26.45.excalidraw.md",
+    "AI frameworks/Google ADK/Google ADK callbacks.md",
     "AI frameworks/Google ADK/Google ADK context management.md",
+    "Excalidraw/Drawing 2026-02-22 09.26.45.excalidraw.md",
     "AI frameworks/Google ADK/Google ADK index.md",
     "AI frameworks/Google ADK/Google ADK tools.md",
-    "AI frameworks/Google ADK/Google ADK callbacks.md",
     "Untitled.base",
     "Untitled.md",
     "AI frameworks/Google ADK/Google ADK agent types.md",
