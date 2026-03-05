@@ -28,8 +28,8 @@ Persistent storage that the agent can save and <span style="color:rgb(216, 203, 
 ### Tools for retrieving memories
 - `PreloadMemory`: Always <span style="color:rgb(216, 203, 251)">retrieve memory at the beginning of each turn</span> (similar to a callback).
 - `LoadMemory`: <span style="color:rgb(216, 203, 251)">Retrieve memory when the agent decides</span> it would be helpful.
-### Implement memories
-`inMemoryMemoryService` <span style="color:rgb(216, 203, 251)">only saves memories while the app is executing</span>.
+### InMemoryMemoryService
+`inMemoryMemoryService` <span style="color:rgb(216, 203, 251)">only saves memories while the app is executing</span> NOT persistent.
 1. Create a `preload_memory_tool` that <span style="color:rgb(216, 203, 251)">retrieves the agent's memory to provide a response</span>.
 ```python
 from google.adk.tools import preload_memory_tool
@@ -53,6 +53,18 @@ root_agent = Agent(
     after_agent_callback=auto_save_session_to_memory_callback
 )
 ```
+### VertexAI Memory bank
+Service that helps AI agents <span style="color:rgb(216, 203, 251)">remember information about users across different conversations</span>. It requires an agent engine instance.
+- <span style="color:rgb(216, 203, 251)">Stores only important facts</span> about each user.
+- Remembers <span style="color:rgb(216, 203, 251)">preferences and past interactions</span>.
+- <span style="color:rgb(216, 203, 251)">Recalls relevant information</span> when needed.
+- Helps the agent give <span style="color:rgb(216, 203, 251)">personalized responses</span>.
+![[Pasted image 20260303205930.png|639]]
+### Security risks
+To <span style="color:rgb(216, 203, 251)">mitigate the risk of memory poisoning</span>, we can do the following:
+- **Model armor:** <span style="color:rgb(216, 203, 251)">Inspect prompts being sent to Memory Bank</span> or from the agent.
+- **Adversarial testing:** <span style="color:rgb(216, 203, 251)">Test LLM application for prompt injection</span> vulnerabilities by simulating attacks.
+- **Sandbox execution:** Agent interactions with external or critical systems should be performed in an <span style="color:rgb(216, 203, 251)">sandboxed environment with strict access control</span>.
 # State
 In each session (conversation thread), the <span style="color:rgb(216, 203, 251)">state works like the agent's personal notepad</span> for that specific chat.
 - `session.events` keeps the <span style="color:rgb(216, 203, 251)">full history of what happened</span>.
