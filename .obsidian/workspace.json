@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI frameworks/Google ADK/Google ADK context management.md",
+                "file": "AI frameworks/Google ADK/Google ADK agent types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Google ADK context management"
+              "title": "Google ADK agent types"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI frameworks/Google ADK/Google ADK context management.md",
+                "file": "AI frameworks/Google ADK/Google ADK agent types.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Google ADK context management"
+              "title": "Outline of Google ADK agent types"
             }
           }
         ],
@@ -169,13 +169,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "82a3cf43e3a678ec",
+  "active": "b37a1a73b3ff227a",
   "lastOpenFiles": [
+    "Images/Pasted image 20260317220845.png",
+    "Images/Pasted image 20260317220314.png",
+    "AI frameworks/Google ADK/Google ADK index.md",
+    "AI frameworks/AI frameworks index.md",
+    "AI frameworks/Google ADK/Google ADK context management.md",
     "Images/Pasted image 20260303205930.png",
     "AI frameworks/Google ADK/Google ADK callbacks.md",
-    "AI frameworks/Google ADK/Google ADK context management.md",
     "Excalidraw/Drawing 2026-02-22 09.26.45.excalidraw.md",
-    "AI frameworks/Google ADK/Google ADK index.md",
     "AI frameworks/Google ADK/Google ADK tools.md",
     "Untitled.base",
     "Untitled.md",

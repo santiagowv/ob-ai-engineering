@@ -48,6 +48,11 @@ root_agent = content_creator_agent
 ```
 ## Loop agent
 It <span style="color:rgb(216, 203, 251)">refines the agent's response</span> until there are no errors.
+- Ensures outputs <span style="color:rgb(216, 203, 251)">meet specific quality standards and constraints</span>.
+- Helpful when accuracy and criteria <span style="color:rgb(216, 203, 251)">compliance matters</span>.
+- <span style="color:rgb(216, 203, 251)">Increase latency and cost</span> (more iterations=more calls).
+- Requires carefully designed <span style="color:rgb(216, 203, 251)">exit conditions</span>.
+- Can <span style="color:rgb(216, 203, 251)">add complexity</span> to the system.
 ![[Pasted image 20260220065513.png|600]]
 ```python
 # STEP 2: Refinement Loop Agent
@@ -73,3 +78,20 @@ root_agent = SequentialAgent(
     description="Iteratively generates and refines a cloud architecture until stable."
 )
 ```
+# Coordinator
+- Extremely flexible.
+- Dynamic routing at runtime.
+- Solves every complex problems by breaking them down.
+- <span style="color:rgb(216, 203, 251)"> Higher latency and cost</span> (extra model calls for routing).
+- Multi-level structure <span style="color:rgb(216, 203, 251)">harder design and trouble</span>.
+![[Pasted image 20260317220314.png|604]]
+```python
+router_agent = LlmAgent(
+	name="router_agent",
+	model="gemini-2.5-flash",
+	instruction=new_router_instruction,
+	sub_agents=[weekend_guide_workflow, day_trip_workflow, find_and_navigate_agent]
+)
+```
+## Coordinator vs agent as tool
+![[Pasted image 20260317220845.png]]
