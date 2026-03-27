@@ -4,6 +4,7 @@
 	- Resources.
 	- Templates.
 	- Tools.
+- Using MCP tools instead of creating tools directly in the agent implementation <span style="color:rgb(216, 203, 251)">decouples tools from the system</span>.
 # Model context protocol componentes
 - **Model:** any <span style="color:rgb(216, 203, 251)">LLM</span> (Gemini, GPT, Claude).
 - **Context:** <span style="color:rgb(216, 203, 251)">external information and resources</span> the LLM requires.

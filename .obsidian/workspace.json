@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI frameworks/Google ADK/Google ADK agent types.md",
+                "file": "AI frameworks/AI frameworks index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Google ADK agent types"
+              "title": "AI frameworks index"
+            }
+          },
+          {
+            "id": "134b9b23da433f79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI frameworks/Google ADK/Google ADK multi-agent system.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Google ADK multi-agent system"
+            }
+          },
+          {
+            "id": "876785b132298c4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI frameworks/Google ADK/Google ADK A2A protocol.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Google ADK A2A protocol"
+            }
+          },
+          {
+            "id": "c11b68389a8db5f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI frameworks/Google ADK/Google ADK context management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Google ADK context management"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI frameworks/Google ADK/Google ADK agent types.md",
+                "file": "AI frameworks/Google ADK/Google ADK multi-agent system.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Google ADK agent types"
+              "title": "Outline of Google ADK multi-agent system"
             }
           }
         ],
@@ -169,20 +212,30 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b37a1a73b3ff227a",
+  "active": "134b9b23da433f79",
   "lastOpenFiles": [
-    "Images/Pasted image 20260317220845.png",
-    "Images/Pasted image 20260317220314.png",
+    "AI frameworks/Google ADK/Google ADK A2A protocol.md",
+    "Images/Pasted image 20260326202249.png",
+    "AI frameworks/Google ADK/Google ADK multi-agent system.md",
     "AI frameworks/Google ADK/Google ADK index.md",
-    "AI frameworks/AI frameworks index.md",
+    "Images/Pasted image 20260326201842.png",
     "AI frameworks/Google ADK/Google ADK context management.md",
-    "Images/Pasted image 20260303205930.png",
-    "AI frameworks/Google ADK/Google ADK callbacks.md",
     "Excalidraw/Drawing 2026-02-22 09.26.45.excalidraw.md",
+    "AI frameworks/Google ADK/Google ADK agent types.md",
+    "AI frameworks/Google ADK/Google ADK MCP.md",
+    "AI frameworks/AI frameworks index.md",
+    "Images/Pasted image 20260326195534.png",
+    "Images/Pasted image 20260326195502.png",
     "AI frameworks/Google ADK/Google ADK tools.md",
     "Untitled.base",
+    "2026-03-26.md",
+    "AI frameworks/Google ADK/Google ADK agent setup.md",
+    "AI frameworks/Google ADK/Google ADK introduction.md",
+    "Images/Pasted image 20260317220845.png",
+    "Images/Pasted image 20260317220314.png",
+    "Images/Pasted image 20260303205930.png",
+    "AI frameworks/Google ADK/Google ADK callbacks.md",
     "Untitled.md",
-    "AI frameworks/Google ADK/Google ADK agent types.md",
     "Images/Pasted image 20260227191405.png"
   ]
 }
