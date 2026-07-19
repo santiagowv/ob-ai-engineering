@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Google ADK context management"
             }
+          },
+          {
+            "id": "e515e9fc6b499454",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude code/Claude code index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Claude code index"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI frameworks/Google ADK/Google ADK context management.md",
+                "file": "Claude code/Claude code index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Google ADK context management"
+              "title": "Outline of Claude code index"
             }
           }
         ],
@@ -169,11 +184,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "82a3cf43e3a678ec",
+  "active": "b37a1a73b3ff227a",
   "lastOpenFiles": [
+    "AI frameworks/Google ADK/Google ADK context management.md",
+    "Claude code/Claude code index.md",
+    "Claude code",
     "AI frameworks/Google ADK/Google ADK index.md",
     "AI frameworks/AI frameworks index.md",
-    "AI frameworks/Google ADK/Google ADK context management.md",
     "AI frameworks/Google ADK/Google ADK A2A protocol.md",
     "Excalidraw/Drawing 2026-02-22 09.26.45.excalidraw.md",
     "AI frameworks/Google ADK/Google ADK multi-agent system.md",
@@ -192,7 +209,6 @@
     "Images/Pasted image 20260317220314.png",
     "Images/Pasted image 20260303205930.png",
     "AI frameworks/Google ADK/Google ADK callbacks.md",
-    "Untitled.md",
     "Images/Pasted image 20260227191405.png"
   ]
 }
