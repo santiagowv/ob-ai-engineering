@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Claude code index"
             }
+          },
+          {
+            "id": "67652b75f8368b81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude code/Claude code mods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Claude code mods"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -56,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -157,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Claude code/Claude code index.md",
+                "file": "Claude code/Claude code mods.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Claude code index"
+              "title": "Outline"
             }
           }
         ],
@@ -184,10 +200,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b37a1a73b3ff227a",
+  "active": "67652b75f8368b81",
   "lastOpenFiles": [
-    "AI frameworks/Google ADK/Google ADK context management.md",
+    "2026-10-12.md",
+    "Claude code/Claude code mods.md",
+    "Untitled.base",
+    "AI concepts/Traditional AI vs generative AI.md",
+    "AI concepts/Prompt engineering vs context engineering.md",
+    "AI concepts/AI concepts index.md",
+    "AI concepts/AI agent.md",
     "Claude code/Claude code index.md",
+    "AI frameworks/Google ADK/Google ADK context management.md",
     "Claude code",
     "AI frameworks/Google ADK/Google ADK index.md",
     "AI frameworks/AI frameworks index.md",
@@ -201,7 +224,6 @@
     "Images/Pasted image 20260326195534.png",
     "Images/Pasted image 20260326195502.png",
     "AI frameworks/Google ADK/Google ADK tools.md",
-    "Untitled.base",
     "2026-03-26.md",
     "AI frameworks/Google ADK/Google ADK agent setup.md",
     "AI frameworks/Google ADK/Google ADK introduction.md",
