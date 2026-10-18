@@ -6,7 +6,7 @@ A mod is a <span style="color:rgb(216, 203, 251)">plugin that changes how Claude
 - <span style="color:rgb(216, 203, 251)">Run your own code</span> on a command.
 - <span style="color:rgb(216, 203, 251)">Share data</span> between hooks.
 # What a mod can reach
-A mod runs <span style="color:rgb(216, 203, 251)">with our permissions</span>, so before we install one, we need to kno what it has access to. A mod can:
+A mod runs <span style="color:rgb(216, 203, 251)">with our permissions</span>, so before we install one, we need to know what it has access to. A mod can:
 - **Act on our machine as you:** <span style="color:rgb(216, 203, 251)">read and write files</span> anywhere your user account can. 
 - **Read our secrets:** <span style="color:rgb(216, 203, 251)">envionment variables</span> and settings files.
 - **See your session:** <span style="color:rgb(216, 203, 251)">every prompt you send</span> and every tool call Claude makes.
@@ -80,6 +80,14 @@ Use for what we asked for.
 A mod Claude wrote loads only in the session that made it. <span style="color:rgb(216, 203, 251)">To keep the mod, copy its directory out of the mods folder to a place of our own</span>. Then choose how to load it:
 - **In a session we start:** in our shell, run `claude --plugin-dir ~/mods/git-branch`.
 - **For other people:** add it to a marketplace so they can install it.
+- To load it in every session, including the desktop app.
+```
+{
+  "env": {
+    "CLAUDE_CODE_PLUGIN_DIRS": "/Users/santiagowilches/Movies/campbi/projects/esta nueva funcionalidad de claude me volvio mas eficiente como ingeniero de datos/assets/data pipeline safety guard/data-pipeline-safety-guard"
+  }
+}
+```
 # Test a mod
 We can <span style="color:rgb(216, 203, 251)">write automated tests for a mod and run them</span> from our shell with `claude plugin test`. A test:
 1. <span style="color:rgb(216, 203, 251)">Loads the mod</span>.
